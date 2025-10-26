@@ -2,7 +2,7 @@
 #include <string>
 #include <cmath>
 using namespace std;
-const float phi = 3.1416;
+const float phi = 3.1416; //declare dan assign variabel phi dengan nilai 3.1416, dikasih const biar nilainya tidak bisa diubah
 float distance(float x1,float y1,float x2,float y2){ // parameter untuk (x1,y1) dan (x2,y2)
     return sqrt(pow(x2-x1,2)+pow(y2-y1,2)); // perhitungan jarak antar 2 titik yaitu akar dari (x2-x1)^2 + (y2-y1)^2
 } 
@@ -22,4 +22,5 @@ int main(){
     cout << "keliling lingkaran dengan jari-jari 3cm adalah " << circumference(3) << "cm" << endl;
     cout << "luas lingkaran dengan jari-jari 3cm adalah " << area(3) << "cm^2" << endl; 
     return 0;
+
 }
